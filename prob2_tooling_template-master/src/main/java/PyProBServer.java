@@ -53,7 +53,7 @@ public class PyProBServer {
 		System.out.println("Waiting the comunication.");
 	
 	}
-	public boolean open_module(String path_in) throws IOException, BException, URISyntaxException{
+	public boolean openModule(String path_in) throws IOException, BException, URISyntaxException{
 		
 		System.out.println("Load classical B Machine");
 		Path path =  Paths.get(path_in);;
